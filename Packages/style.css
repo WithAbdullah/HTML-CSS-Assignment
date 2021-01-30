@@ -1,0 +1,124 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.heading > p{
+    color: rgb(78, 78, 78);
+}
+
+.heading > h2{
+    margin-top: 2rem;
+}
+
+
+.heading > hr{
+    border-top: 3px solid #8ACE08;
+    width: 2rem;
+}
+
+.package1, .package2{
+    border: 1px solid #245677;
+}
+
+.package1, .package2, .package3{
+    padding: 25px;
+    text-align: center;
+}
+
+.package1{
+    height: 400px;
+    width: 320px;
+    margin-right: 580px;
+    margin-top: 20px;
+}
+
+.package2{
+    height: 400px;
+    width: 320px;
+    margin-left: 580px;
+    margin-top: 20px;
+}
+.package3{
+    height: 400px;
+    width: 300px;
+    border: 3px solid #245677;
+    background: white;
+}
+
+.packages .price span{
+    font-size: 34px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.packages .price {
+    color: #8ACE08;
+    line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.packages p{
+    font-size: 12px;
+    line-height: 12px;
+    color: rgb(78, 78, 78);
+    margin-bottom: 8px;
+}
+.packages h6{
+    line-height: 25px;
+}
+
+.packages .button{
+    background-color: #0685F6;
+    border: 1px solid black;
+    color: white;
+    padding: 7px 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.packages .button1, .packages .button2{
+    margin-top: 57px;
+}
+
+.packages .button3{
+    margin-top: 35px;
+}
+
+.packages .button4{
+    background-color: #8ACE08;
+    border: 1px solid black;
+    color: white;
+    padding: 5px 40px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 500px;
+    cursor: pointer;
+}
+
+.packages p > span{
+    color: #8ACE08;
+    float: right;
+}
+
+.package1 > h5, .package2 > h5{
+    line-height: 19px;
+}
+
+.packages .package3 .basicplushr{
+    margin-top: 9px;
+}
+
+.package1 > hr, .package2 > hr, .package3 > hr{
+    width: 245px;
+}
+
+.package1 .questioniconp, .package2 .questioniconp {
+    padding-left: 13px;
+}
